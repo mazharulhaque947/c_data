@@ -46,12 +46,14 @@ int main(){
 ppt *st,*o;
 st = fas(10);
 aad(st,5);
+aad(st,8);
 o=st;
-o=o->p;
-//while(o->p!=NULL){
-printf("%d  ",o->a);
 
-//}
+while(o!=NULL){
+printf("%d  ",o->a);
+o=o->p;
+
+}
 
 
 
